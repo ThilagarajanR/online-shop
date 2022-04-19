@@ -12,9 +12,9 @@ node{
     }
   stage('PUSH image to Docker Hub')
     {
-      /* withCredentials([string(credentialsId: 'DockerHubPassword', variable: 'DHPWD')]) 
+      /* withCredentials([string(credentialsId: 'DockerHubPassword', variable: 'Asdf1234#')]) 
         {
-            sh "docker login -u upasanatestdocker -p ${DHPWD}"
+            sh "docker login -u thilakrk369 -p ${Asdf1234#}"
         }
         sh 'docker push vardhanns/phpmysql_app'
         */
